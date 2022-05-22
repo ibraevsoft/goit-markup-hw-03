@@ -359,13 +359,14 @@ body {
 }
 
 .project-container {
+    padding: 20px 24px 20px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
 
 .project-header {
-    margin: 20px 24px 4px;
+    margin-bottom: 4px;
 
     font-weight: 700;
     font-size: 18px;
@@ -375,8 +376,6 @@ body {
 }
 
 .project-type {
-    margin: 0 24px 20px;
-
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
