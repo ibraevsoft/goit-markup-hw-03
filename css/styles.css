@@ -101,10 +101,6 @@ body {
     margin-right: 50px;
 }
 
-.contacts {
-    display: flex;
-}
-
 .contact-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -128,6 +124,10 @@ body {
 
 .menu .link.current {
     color: var(--brand-color);
+}
+
+.contacts-header {
+    display: flex;
 }
 
 .contact-link {
@@ -191,7 +191,7 @@ body {
 
 /*=========ADVANTAGE=========*/
 .advantage {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .advantage-list {
@@ -253,8 +253,8 @@ body {
     background: #F5F4FA;
 }
 
-.photo {
-    margin-bottom: 30px;
+.team-content {
+    padding: 30px 20px;
 }
 
 .name-team {
@@ -268,8 +268,6 @@ body {
 }
 
 .profession-team {
-    margin-bottom: 30px;
-    
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -289,16 +287,14 @@ body {
 }
 
 .contacts {
-    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+
+    display: flex;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-}
-
-.footer-contacts-list {
-    margin-top: 20px;
 }
 
 .footer-item:not(:last-child) {
@@ -321,7 +317,7 @@ body {
 }
 
 .filter-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 8px;
 }
 
 .filter-type-btn {
@@ -359,7 +355,7 @@ body {
 }
 
 .project-container {
-    padding: 20px 24px 20px;
+    padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
